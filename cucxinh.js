@@ -4,7 +4,7 @@ $(document).ready(function () {
   const resetBtn = $("#resetBtn");
 
   let currentPage = 1;
-  const totalPages = 40;
+  const totalPages = 74;
   let isOpen = false;
 
   envelope.on('click', function () {
@@ -107,4 +107,5 @@ document.addEventListener("DOMContentLoaded", function () {
   // Tạo ảnh bay liên tục
   setInterval(createFloatingImage, 800);
 });
+
 
